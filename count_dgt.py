@@ -8,6 +8,6 @@ def count_cifra(chislo):
             cifra_counts[cifra] = 1   # если нет, то добавляем с начальным значением один
 
     return cifra_counts
-
+#Пример
 number = 567890876567890
 print(count_cifra(number))
