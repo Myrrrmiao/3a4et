@@ -8,8 +8,7 @@ class Player:
         return (f"Name: {self.name}\n"
                 f"Age: {self.age}\n"
                 f"Position: {self.position}")
-
-
+        
 class Team:
     def __init__(self, team_name, coach):
         self.team_name = team_name
@@ -37,9 +36,7 @@ class Team:
             return
         for player in self.players:
             print(player)
-
-
-# Пример использования
+# Пример
 if __name__ == "__main__":
     player1 = Player("Иванов", 25, "Нападающий")
     player2 = Player("Петров", 30, "Полузащитник")
