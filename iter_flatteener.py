@@ -21,7 +21,7 @@ class FlattenIterator:
             return item
 
         raise StopIteration
-
+# Пример
 nested_list = [1, [2, [3, 4], 5], 6]
 for num in FlattenIterator(nested_list):
     print(num)
