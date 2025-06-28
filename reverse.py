@@ -11,7 +11,7 @@ def reverse_parts(s, k):
         i += 2 * k
 
     return result
-
+# Пример
 print(reverse_parts("qwertyu", 2))
 print(reverse_parts("tyui", 2))
 print(reverse_parts("asdlkjhgfdd", 3))
