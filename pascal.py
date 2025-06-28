@@ -7,7 +7,7 @@ def get_row(row_index):
             row[position_in_row] = row[position_in_row] + row[position_in_row - 1]
 
     return row
-
+# Пример
 print(get_row(0))
 print(get_row(1))
 print(get_row(2))
